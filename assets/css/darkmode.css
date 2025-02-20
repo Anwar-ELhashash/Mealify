@@ -1,0 +1,116 @@
+/* start global rules */
+:root {
+  --color-primary: hsl(35, 72%, 44%);
+  --hover-bg-color: hsl(35, 72%, calc(44% + 5%));
+  --color-light-grey: #252525;
+  --primary-hue: 35;
+  --primary-saturation: 72%;
+  --primary-lightness: 44%;
+}
+body {
+  background-color: #202020;
+}
+.main-heading + p {
+  color: #fff;
+}
+
+/* end global rules */
+
+/* start header section */
+header {
+  background-color: #000;
+}
+header .container .logo a {
+  color: #fff;
+}
+header .container .links li:first-of-type a {
+  color: #fff !important;
+}
+header .container .links li a {
+  color: #7f7f90 !important;
+}
+header .container .links li:hover a {
+  color: #fff !important;
+}
+header .container .dark-mode i {
+  color: white;
+}
+header .container .dark-mode .bars span {
+  background-color: #ffffff;
+}
+/* end header section */
+
+/* start home section */
+.home {
+  background-color: var(--color-light-grey);
+}
+.home .container .content h1 {
+  color: #fff;
+}
+.home .container .content p {
+  color: #9f9f9f;
+}
+.home .container .content .anchor .video .icon {
+  background-color: #000000;
+}
+.home .container .content .anchor .video:hover .icon i {
+  color: var(--color-primary);
+}
+.home .container .content .anchor .video .icon i,
+.home .container .content .anchor .video span {
+  color: #fff;
+}
+/* end home section */
+
+/* start  home chefs */
+.chefs .container .cards .card .content h3 {
+  color: #fff;
+}
+.chefs .container .cards .card .content {
+  background-color: #000000;
+}
+.chefs .container .cards .card .content h4,
+.chefs .container .cards .card .content p {
+  color: #9f9f9f;
+}
+/* end home chefs */
+
+/* start gallery section */
+.gallery {
+  background-color: var(--color-light-grey);
+}
+/* end gallery section */
+
+/* start contact section */
+.contact .container .contact-info .contact-data .box {
+  background-color: #000000;
+}
+.contact .container .contact-info .contact-data .box .text p,
+.contact .container .contact-info .contact-data .box .text p span {
+  color: #ffffff;
+}
+.contact .container .contact-info .form {
+  background-color: #000000;
+}
+.contact .container .contact-info .form form input[type="submit"] {
+  color: black;
+}
+/* end contact section */
+
+/* start footer section */
+footer .container .subscribe .form button {
+  color: #000000;
+}
+@media (max-width: 991px) {
+  header .container .links {
+    background-color: var(--color-default);
+    border-left: 2px solid var(--color-secondary);
+  }
+  header .container .links li a {
+    color: #fff;
+  }
+  header .container .links > a:hover {
+    color: #fff;
+  }
+}
+/* end footer section */
